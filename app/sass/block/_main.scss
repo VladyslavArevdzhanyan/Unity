@@ -1,0 +1,81 @@
+.main {
+    padding-top: 5px;
+    &__intro {
+        max-height: 100%;
+        overflow: hidden;
+        position: relative;
+        &::after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 2;
+            background-color: rgba(0, 0, 0, .5) ;
+            width: 100%;
+            height: 100%;
+        }
+        &-background {
+            position: relative;
+            padding-bottom: 45.3%;
+            z-index: 1;
+            &-video {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: auto;
+            }
+        }
+        &-content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 3;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            &-title {
+                font-weight: 700;
+                font-size: 60px;
+                line-height: 73px;
+                margin: 0 auto;
+                color: #FFFFFF;
+                max-width: 780px;
+            }
+            &-btn {
+                text-align: center;
+                padding-top: 150px;
+                &-link {
+                    text-decoration: none;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #FFFFFF;
+                    background: transparent;
+                    border-radius: 4px;
+                    padding: 15px 23px;
+                    margin: 0 15px;
+                    border: 2px solid #FFFFFF;
+                    &.general {
+                        background: #8482FF;
+                        &:hover {
+                            background-color: #615efd;
+                        }
+                    }
+                    &:hover {
+                        background: #8482FF;
+                        transition: 1s;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+

@@ -43,7 +43,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 50px 0;
+  padding: 20px 0;
 }
 
 .header__top-logo {
@@ -118,6 +118,102 @@ body {
     font-size: 22px;
     margin: 15px 0;
   }
+}
+
+.main {
+  padding-top: 5px;
+}
+
+.main__intro {
+  max-height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.main__intro::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+.main__intro-background {
+  position: relative;
+  padding-bottom: 45.3%;
+  z-index: 1;
+}
+
+.main__intro-background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.main__intro-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main__intro-content-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 73px;
+  margin: 0 auto;
+  color: #FFFFFF;
+  max-width: 780px;
+}
+
+.main__intro-content-btn {
+  text-align: center;
+  padding-top: 150px;
+}
+
+.main__intro-content-btn-link {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  background: transparent;
+  border-radius: 4px;
+  padding: 15px 23px;
+  margin: 0 15px;
+  border: 2px solid #FFFFFF;
+}
+
+.main__intro-content-btn-link.general {
+  background: #8482FF;
+}
+
+.main__intro-content-btn-link.general:hover {
+  background-color: #615efd;
+}
+
+.main__intro-content-btn-link:hover {
+  background: #8482FF;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 /*# sourceMappingURL=style.css.map */
