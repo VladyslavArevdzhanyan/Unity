@@ -9,9 +9,13 @@
         font-size: 22px;
         line-height: 25px;
         color: #3E416D;
+        &:hover {
+            color: #8482FF;
+        }
         &-color {
             color: #8482FF;
         }
+        
     }
     &-menu-link {
         text-decoration: none;

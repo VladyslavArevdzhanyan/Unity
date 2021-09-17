@@ -54,6 +54,10 @@ body {
   color: #3E416D;
 }
 
+.header__top-logo:hover {
+  color: #8482FF;
+}
+
 .header__top-logo-color {
   color: #8482FF;
 }
@@ -144,7 +148,7 @@ body {
 
 .main__intro-background {
   position: relative;
-  padding-bottom: 45.3%;
+  padding-bottom: 45.35%;
   z-index: 1;
 }
 
@@ -170,9 +174,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 150px;
 }
 
 .main__intro-content-title {
@@ -186,7 +190,6 @@ body {
 
 .main__intro-content-btn {
   text-align: center;
-  padding-top: 150px;
 }
 
 .main__intro-content-btn-link {
@@ -212,6 +215,26 @@ body {
 
 .main__intro-content-btn-link:hover {
   background: #8482FF;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.main__intro-content-down {
+  text-align: center;
+  -webkit-transition: -webkit-transform 1s linear;
+  transition: -webkit-transform 1s linear;
+  transition: transform 1s linear;
+  transition: transform 1s linear, -webkit-transform 1s linear;
+}
+
+.main__intro-content-down:hover {
+  -webkit-transform: translateY(30px);
+          transform: translateY(30px);
+}
+
+.main__intro-content-down:hover .main__intro-content-down-svg path {
+  stroke: white;
+  opacity: 1;
   -webkit-transition: 1s;
   transition: 1s;
 }
