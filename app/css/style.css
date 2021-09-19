@@ -431,6 +431,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  padding-top: 67px;
 }
 
 .main__price-title {
@@ -441,7 +442,6 @@ body {
   color: #FFFFFF;
   margin: 0 auto;
   max-width: 533px;
-  padding-top: 67px;
 }
 
 .main__price-example {
@@ -982,6 +982,184 @@ body {
     grid-row: 3 / 4;
   }
   .main__teacher-info-block-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.main__certificate {
+  padding: 120px 0 110px;
+  background-color: #3E416D;
+}
+
+.main__certificate-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main__certificate-flex-block-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FFFFFF;
+}
+
+.main__certificate-flex-block-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  max-width: 577px;
+  padding-top: 30px;
+}
+
+.main__certificate-flex-block-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 40px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main__certificate-flex-block-about-get-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.main__certificate-flex-block-about-get-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  padding-top: 20px;
+}
+
+.main__certificate-flex-block-about-get-link {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main__certificate-flex-block-about-get-link-start {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #8482FF;
+  padding-left: 25px;
+  position: relative;
+}
+
+.main__certificate-flex-block-about-get-link-start::after {
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #8482FF;
+  left: 0;
+  top: 3px;
+}
+
+.main__certificate-flex-block-about-get-link-pro {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #FF9882;
+  padding-left: 25px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.main__certificate-flex-block-about-get-link-pro::before {
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #FF9882;
+  left: 0;
+  top: 3px;
+}
+
+.main__certificate-flex-block-about-delivery {
+  margin-left: 30px;
+}
+
+.main__certificate-flex-block-about-delivery-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.main__certificate-flex-block-about-delivery-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  padding-top: 20px;
+  max-width: 203px;
+}
+
+@media (max-width: 1048px) {
+  .main__certificate-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main__certificate-flex-block-title {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 494px) {
+  .main__certificate-flex-block-about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .main__certificate-flex-block-about-delivery {
+    margin-left: 0;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid white;
+  }
+  .main__certificate-flex-block-about-get {
+    padding-top: 20px;
+    border-top: 2px solid white;
+  }
+  .main__certificate-flex-img {
     width: 100%;
     height: auto;
   }
