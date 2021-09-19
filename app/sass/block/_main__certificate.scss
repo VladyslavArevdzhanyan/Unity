@@ -86,20 +86,20 @@
             }
             &-delivery {
                 margin-left: 30px;
-            }
-            &-delivery-title {
-                font-weight: 600;
-                font-size: 18px;
-                line-height: 22px;
-                color: #FFFFFF;
-            }
-            &-delivery-text {
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 19px;
-                color: #FFFFFF;
-                padding-top: 20px;
-                max-width: 203px;
+                &-title {
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #FFFFFF;
+                }
+                &-text {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #FFFFFF;
+                    padding-top: 20px;
+                    max-width: 203px;
+                }
             }
         }
     }
@@ -108,10 +108,9 @@
 @media (max-width: 1048px) {
     .main__certificate-flex {
         flex-direction: column;
-    }
-
-    .main__certificate-flex-block-title {
-        padding-top: 30px;
+        &-block-title {
+            padding-top: 30px;
+        }
     }
 }
 

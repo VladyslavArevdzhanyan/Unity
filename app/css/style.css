@@ -1165,4 +1165,175 @@ body {
   }
 }
 
+.main__trophy {
+  background-color: #3E416D;
+  padding-bottom: 120px;
+}
+
+.main__trophy-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 60px 148px;
+  background: #525794;
+  border: 2px solid #8482FF;
+  border-radius: 20px;
+}
+
+.main__trophy-about-trophy-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FFFFFF;
+}
+
+.main__trophy-about-trophy-first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 40px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main__trophy-about-trophy-first-block:nth-child(2) {
+  margin-left: 66px;
+}
+
+.main__trophy-about-trophy-first-block-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+.main__trophy-about-trophy-first-block-price {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+
+.main__trophy-about-trophy-second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 40px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main__trophy-about-trophy-second-block {
+  background: #FF9882;
+  -webkit-box-shadow: 0px 10.0589px 22.9918px -7.18492px rgba(255, 152, 130, 0.5);
+          box-shadow: 0px 10.0589px 22.9918px -7.18492px rgba(255, 152, 130, 0.5);
+  border-radius: 14.3698px;
+  padding: 11px 17px;
+}
+
+.main__trophy-about-trophy-second-block:nth-child(2) {
+  background: #A5A5B5;
+}
+
+.main__trophy-about-trophy-second-block:nth-child(3) {
+  background: #AC8F73;
+}
+
+.main__trophy-about-trophy-second-block-text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+.main__trophy-about-trophy-second-block-price {
+  font-weight: 700;
+  font-size: 21.5548px;
+  line-height: 26px;
+  color: #FFFFFF;
+  padding-top: 8px;
+}
+
+.main__trophy-about-trophy-btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  padding: 15px 22px;
+  border: none;
+  background: #8482FF;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 60px;
+}
+
+.main__trophy-about-trophy-btn:hover {
+  background: #FF9882;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.main__trophy-about-trophy-btn:active {
+  background-color: green;
+}
+
+@media (max-width: 1130px) {
+  .main__trophy-about {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .main__trophy-about-img {
+    display: none;
+  }
+}
+
+@media (max-width: 823px) {
+  .main__trophy-about {
+    padding: 60px 30px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main__trophy-about-trophy-first-block:nth-child(2) {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .main__trophy-about-trophy-first {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main__trophy-about-trophy-second {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .main__trophy-about-trophy-second-block {
+    margin-bottom: 30px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
